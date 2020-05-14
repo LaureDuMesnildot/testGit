@@ -1,0 +1,494 @@
+/*
+Theme Name: Wext
+Theme URI: http://www.extene.com/
+Description: Extene Start Kit Theme
+Author: Extene inc. - contact@extene.com
+Version: 2.0
+Text Domain: wext
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,600,700');
+
+.global-format img {
+  padding: 0;
+}
+
+table td .shipment_rules {
+    font-size: 13px;
+    text-decoration: underline;
+    line-height: 1;
+    display: inline-block;
+}
+
+.global-format a{
+  color: blue;
+}
+
+.global-format a:hover{
+  color: blue;
+  text-transform: underline;
+}
+
+.sec_my_account .my_subscriptions {
+  border: 1px solid #cccccc;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 991px) {
+  .sec_my_account .my_subscriptions {
+    padding: 0 30px;
+  }
+}
+.sec_my_account .my_subscriptions .item {
+  padding: 0 20px;
+}
+@media screen and (min-width: 992px) {
+  .sec_my_account .my_subscriptions .item:nth-child(odd) {
+    border-right: 1px solid #cccccc;
+  }
+}
+@media screen and (max-width: 991px) {
+  .sec_my_account .my_subscriptions .item {
+    padding: 30px 15px;
+  }
+  .sec_my_account .my_subscriptions .item:not(:last-child) {
+    border-bottom: 1px solid #cccccc;
+  }
+  .sec_my_account .my_subscriptions .item .text-center {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sec_my_account .my_subscriptions .item {
+    text-align: center;
+  }
+  .sec_my_account .my_subscriptions .item .col-xs-4,
+  .sec_my_account .my_subscriptions .item .col-xs-8 {
+    width: 100%;
+  }
+  .sec_my_account .my_subscriptions .item .text-center {
+    text-align: center;
+  }
+}
+.sec_my_account .my_subscriptions .item .col-xs-4 {
+  text-align: center;
+}
+.sec_my_account .my_subscriptions .item .cover {
+  max-height: 180px;
+}
+.sec_my_account .my_subscriptions .item .title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sec_my_account .my_subscriptions .item .btn {
+  margin-top: 15px;
+  text-align: center;
+  white-space: normal;
+}
+.sec_my_account .grey_bg {
+  background-color: rgba(247, 247, 247, 0.6);
+  border: 1px solid #cccccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.sec_my_account .grey_bg:after {
+  content: "";
+  background: url(../img/bg_motif.png);
+  opacity: 0.5;
+  top: 0;
+  left: 15px;
+  bottom: 20px;
+  right: 15px;
+  position: absolute;
+  z-index: -1;
+}
+.sec_my_account .grey_bg .picto {
+  font-size: 42px;
+  position: relative;
+  top: 5px;
+  margin-right: 10px;
+}
+.sec_my_account .my_basket {
+  padding: 20px;
+  border: 1px solid #cccccc;
+}
+.sec_my_account .my_basket table td {
+  border-top: none;
+  border-bottom: 1px solid #cccccc;
+}
+.sec_my_account .my_basket table .title {
+  display: block;
+  font-weight: bold;
+}
+.sec_my_account .my_basket table .price {
+  font-weight: bold;
+}
+.sec_my_account .my_basket .btn {
+  margin-left: 10px;
+}
+@media screen and (max-width: 450px) {
+  .sec_my_account .my_basket .btn {
+    margin-top: 10px;
+  }
+}
+
+
+.svg-preview {
+  display: block;
+  float: right;
+}
+.svg-preview img {
+  width: 37px;
+}
+
+header.shop_mode nav:after {
+  display: none;
+}
+
+
+.global-format img:not(.flex) {
+  width: 100%;
+  padding: 2% 0 0 0;
+}
+.global-format img.flex {
+  padding: 2% 0 0 0;
+  display: inline-block;
+}
+.global-format img.aligncenter {
+  margin: 0 auto;
+  display: block;
+}
+
+#section_content .content_section .legend {
+  display: flex;
+  font-size: 12px;
+  padding:2px 20px;
+}
+
+
+.global-format p + figcaption {
+  margin-top: -2%;
+}
+
+img.with-border{
+  border: 1px solid #cccccc;
+}
+span.price {
+    font-size: 22px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.mod_subscription-offers .bdwrap .btn {
+    margin-top: 0;
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.global-format img {
+	height: auto;
+}
+
+span.wpcf7-not-valid-tip {
+  font-size:13px;
+}
+
+.wpcf7-form-control.g-recaptcha.wpcf7-recaptcha > div {
+  margin: 0 auto;
+}
+
+.global-format blockquote {
+  color: #eb630c;
+  font-style: normal;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  border: 0;
+}
+
+a.like_action.liked,a.like_action:active,a.like_action:focus {
+  text-decoration: none;
+}
+a.like_action.liked{
+  pointer-events: none;
+}
+a.like_action.liked:before {
+  color:#fabd96;
+}
+#section_content .content_section .illustration .i_do_it.did-it {
+  background: #000000;
+  pointer-events: none;
+}
+
+.block {
+	display: block;
+}
+.section_partners .partenaires_liste .item{
+  position:relative;
+}
+
+.partenaires_liste .item a.cover_click {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+#section_our_team .content_section .item{
+  cursor:initial;
+}
+
+.section_img_text .illustration a{
+  z-index: 8;
+}
+
+#section_events ul.list_events li .item .text_content .theme{
+  text-transform:uppercase;
+}
+
+@media screen and (min-width: 600px) {
+  .the_modal.the_modal_addToBasket .wrap_the_modal {
+    max-width: 450px;
+  }
+}
+.the_modal.the_modal_addToBasket .header_modal {
+  padding-bottom: 15px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.the_modal.the_modal_addToBasket .header_modal:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-image: url("./assets_boutique/img/bg_motif.png");
+  background-repeat: repeat;
+  display: inline-block;
+}
+.the_modal.the_modal_addToBasket .header_modal h2 {
+  color: #000000;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  .the_modal.the_modal_addToBasket .header_modal h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+}
+.the_modal.the_modal_addToBasket .content_modal {
+  text-align: center;
+}
+.the_modal.the_modal_addToBasket .content_modal .cover {
+  max-height: 200px;
+  margin: 20px 0;
+}
+.the_modal.the_modal_addToBasket .content_modal .title {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.the_modal.the_modal_addToBasket .content_modal .addToBasket {
+  margin: 20px 0 10px;
+}
+
+#section_filters .explore-board {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  font-size: 0;
+  padding: 12px;
+  background-image: url("./assets_media/img/bg_motif.png");
+  background-repeat: repeat;
+}
+ 
+ .content-board{
+    display: inline-block;
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 0 5px;
+    margin: 0;
+}
+
+ .content-board span{
+    height: 37px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+
+  }
+
+
+/*.explore-board span {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding: 0 5px;
+    margin: 0;
+}*/
+
+
+#the_modal_connect .grid{
+  font-size:16px;
+}
+#the_modal_connect .grid.c2b .cl{
+  margin:0;
+}
+/*Page Découvrir New*/
+.page-template-template-decouvrir-new .row-eq-height{
+  display: flex;
+}
+
+.page-template-template-decouvrir-new #contentos .col-md-4{
+  align-self: center;
+}
+
+.page-template-template-decouvrir-new #abonos a {
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.page-template-template-decouvrir-new #abonos .col-md-4 a {
+  bottom:18%;
+  width: 35px; height: 35px;
+  background: #eb630c;
+  border-radius: 20px;
+  color: white;
+  font-size: 31px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 32px;
+  transition: background 0.4s ease-out;
+}
+.page-template-template-decouvrir-new #abonos .col-md-4 a:hover {
+  text-decoration: none;
+  background: black;
+  color: white;
+}
+
+.page-template-template-decouvrir-new #abonos .col-md-8 a {
+	bottom: 11%;
+	padding: 9px 33px;
+	font-family: 'Arial', sans-serif; 
+    font-size: 16px;
+}
+
+.page-template-template-decouvrir-new #coveros h3{
+  font-family: 'Barlow Condensed', sans-serif;
+  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 22px;
+  padding: 0 1%;
+  text-align: left;
+  float: left;
+  margin:20px 0;
+  font-weight: 600;
+  color: #201217;
+  text-transform: uppercase;
+}
+.page-template-template-decouvrir-new #coveros h4{
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: right;
+  display: inline;
+  float:right;
+  margin:20px 0;
+  font-size: 16px;
+  color: #201217;
+}
+.page-template-template-decouvrir-new #coveros h4 span{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.page-template-template-decouvrir-new #coveros .boutonos{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  transition: all 1s ease;
+  opacity: 0;
+}
+
+.page-template-template-decouvrir-new #coveros .boutonos a{
+  color:#ffffff;
+  background:#eb630c;
+  padding:10px 5px;
+  border-radius:5px;
+  font-size:12px;
+}
+.page-template-template-decouvrir-new #coveros .boutonos a:first-of-type{
+  margin-right: 20px;
+}
+.page-template-template-decouvrir-new #coveros .boutonos a:hover{
+  text-decoration: none;
+  background:#000000;
+}
+.page-template-template-decouvrir-new #coveros .col-md-4:hover .boutonos{
+  opacity: 1;
+}
+@media (max-width: 992px) {
+  .page-template-template-decouvrir-new .row-eq-height{
+    display: block;
+  }
+  .page-template-template-decouvrir-new #abonos .col-md-4 img{
+    margin:0 auto;
+    margin-bottom: 20px;
+  }
+  .page-template-template-decouvrir-new #abonos .col-md-8 img{
+    margin:0 auto;
+  }
+  .page-template-template-decouvrir-new #contentos .col-md-4 img{
+    margin:0 auto;
+  }
+  .page-template-template-decouvrir-new #coveros .col-md-4 img{
+    margin:0 auto;
+  }
+  .page-template-template-decouvrir-new #coveros .col-md-4{
+    margin-bottom: 30px;
+  }
+  .page-template-template-decouvrir-new #coveros .col-md-4 h3, .page-template-template-decouvrir-new #coveros .col-md-4 h4{
+    float: none;
+  }
+
+}
+
+/* Ajout du bouton dans l'éditeur qui ajoute un bandeau d'abonnement dans les articles */
+
+.bandeau-abo-articles {
+  background-color:rgb(252, 185, 2);
+  border-radius:3px;
+  border:none;
+  cursor: pointer;
+  display:inline-block;
+  padding: 20px 0;
+  margin: 25px 0;
+  width: 100%;
+}
+
+.bandeau-abo-articles p {
+  text-decoration:none;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  color: black;
+}
+
+.bandeau-abo-articles:hover {
+  background-color: #eb630c;
+}
